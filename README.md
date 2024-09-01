@@ -30,7 +30,7 @@ The pipeline requires a input tsv with CpG methylation information derived from 
 
 ## Example output
 
-Example output for chromosome 7 from HiFi pacbio sequencing of the genome in a bottle reference data HG002 is displayed below. The pipeline was run with default settings. The mean coherence score is above one, suggesting a baseline degree of methylation coherence across the chromosome. 
+Example output for chromosome 7 from HiFi pacbio sequencing of the genome in a bottle reference data [HG002](https://downloads.pacbcloud.com/public/revio/2022Q4/?utm_source=Website&utm_medium=webpage&utm_term=HomoSapiens-GIAB-trio-HG002-4&utm_content=datasets&utm_campaign=0000-Website-Leads) is displayed below. The pipeline was run with default settings. The mean coherence score is above one, suggesting a baseline degree of methylation coherence across the chromosome. 
 
 Many of the regions with the highest coherence scores (MEST,GRB10,HOX) are known imprinted genes on chromosome 7 [(link)](https://www.geneimprint.org/site/genes-by-species). The pipeline is able to identify these regions as having high coherence scores, suggesting that the pipeline is able to identify regions of high methylation coherence.
 
